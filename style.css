@@ -4,7 +4,7 @@
     rgb(64, 64, 196) 20% 50%,
     rgb(61, 214, 61) 60% 70%
   );
-  box-shadow: inset 5px 5px 3px 5px;
+  
 }
 .deg_linear_gradient {
   background: linear-gradient(
@@ -16,26 +16,25 @@
     yellow 75%,
     #801e1e 75%
   );
-  box-shadow: 5px 5px 3px 15px;
+  
 }
 .radial_gradient {
-  background: radial-gradient(red 30%, #fff 20% 50%);
-  box-shadow: green 5px 5px 5px 10px;
+  background: radial-gradient(red, #fff );
+ 
 }
 .circle_radial_gradient {
-  background: radial-gradient(circle, red, #fff);
-  box-shadow: yellow 10px 10px 10px 10px, red 10px 10px 10px 10px,
-    green 10px 10px 10px 15px;
+  background: radial-gradient(circle, red, #751571);
+ 
 }
 .outset_shadow {
-  background: linear-gradient(red, #a53939);
+ 
   box-shadow: 10px 10px 10px 10px;
 }
 .inset_shadow {
-  background: linear-gradient(red, green);
+  
   box-shadow: inset 10px 10px 10px 10px, yellow 10px 10px 10px 10px, red 10px 10px 10px 15px;
 }
 .box_shadow {
-  background: linear-gradient(red, blue);
+  
   box-shadow: yellow 10px 10px 10px 10px, rgb(0, 255, 255) 10px 10px 10px 10px, rgb(25, 0, 255) 10px 10px 10px 10px, rgb(255, 145, 0) 10px 10px 10px 10px, rgb(0, 204, 255) 10px 10px 10px 10px, rgb(83, 13, 48) 10px 10px 10px 10px, yellow 10px 10px 10px 10px;
 }
